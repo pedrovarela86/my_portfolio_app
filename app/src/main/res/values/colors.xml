@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Window colors-->
+    <color name="window_background_color">#DFEBF1</color>
+
+    <!--Button Colors-->
+    <color name="button_state_pressed">#D0003E</color>
+    <color name="button_state_normal">#F38A45</color>
+</resources>

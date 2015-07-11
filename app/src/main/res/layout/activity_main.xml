@@ -1,0 +1,53 @@
+<LinearLayout
+    style="@style/MainActivityFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityFragment">
+
+    <TextView
+        style="@style/TextView.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/main_title"/>
+
+    <Button
+        android:id="@+id/buttonSpotifyStreamer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/button_spotify"/>
+
+    <Button
+        android:id="@+id/buttonScoresAp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/button_scores"/>
+
+    <Button
+        android:id="@+id/buttonBuildItBigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/button_build"/>
+
+    <Button
+        android:id="@+id/buttonXYZReader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/button_xyz"/>
+
+    <Button
+        android:id="@+id/buttonCapstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:text="@string/button_capstone"/>
+
+
+</LinearLayout>
